@@ -306,8 +306,8 @@ fig.update_layout(
     title=f"Efficient Frontier — {', '.join(tickers)}",
     xaxis_title="Risk (Annualized Volatility)",
     yaxis_title="Expected Return (Annualized)",
-    margin=dict(l=8, r=8, t=48, b=8),
-    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(size=11)),
+    margin=dict(l=8, r=8, t=35, b=8),
+    legend=dict(orientation="v", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(size=10)),
     height=440,
 )
 fig.update_xaxes(ticks="outside", tickformat=".1%", gridcolor="#253341", zerolinecolor="#2b3b46")
