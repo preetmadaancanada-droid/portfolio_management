@@ -123,7 +123,7 @@ st.markdown(THEME_CSS, unsafe_allow_html=True)
 st.sidebar.title("⚙️ Controls")
 st.sidebar.markdown('<div class="sidebar-card">Choose up to 5 symbols. Use exchange suffixes (e.g., <b>.TO</b> for TSX).</div>', unsafe_allow_html=True)
 
-tickers_text = st.sidebar.text_input("Tickers (comma-separated)", value="RY.TO, ENB.TO, FTS.TO, CNQ.TO, SHOP.TO")
+tickers_text = st.sidebar.text_input("Tickers (comma-separated)", value="RY.TSX, ENB.TSX, FTS.TSX, CNQ.TSX, SHOP.TSX")
 lookback_years = st.sidebar.slider("Lookback (years)", 3, 10, 5)
 risk_free = st.sidebar.number_input("Risk-free (annual)", value=0.03, step=0.005, format="%.3f")
 
